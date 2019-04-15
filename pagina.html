@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercício de Revisão</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<header>
+    <div class="inner-wrapper">
+        <img src="ImpactaFaculdade.jpg" alt="Logo Faculdade Impacta Tecnologia" onclick="logo()">
+        <div class="title">
+            <h1><b>Exercício de Revisão</b></h1></b>
+        </div>
+    </div>
+    <div class="bottom-border"></div>
+    </div>
+    <nav>
+        <ul>
+            <div class="nav-bar">
+                <a href="#description">Sobre a Faculdade</a>
+                <a href="#list">Cursos</a>
+                <a href="#form">Fale com a Impacta</a>
+                <a href="#table">Atendimento</a>
+            </div>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div id="description">
+        <div class="container">
+            <div class="main-wrapper">
+                <span> <img src="LogoFaculdadeImpacta.jpg" alt="Logo Faculdade Impacta"></span>
+                <h1>Faculdade Impacta</h1>
+                
+                <p>Fundada em 2003, a Faculdade Impacta é considerada uma das melhores instituições de tecnologia da América Latina devido ao seu intenso compromisso com a educação ao longo dos anos e à transformação da sociedade através da tecnologia. 
+
+                    Referência nas áreas de TI, Gestão e Design, a Impacta conta com cursos de Graduação, Pós-Graduação, Extensão, MBA e cursos técnicos que preparam seus alunos para os desafios do mercado de trabalho, além de um time de mestres e doutores com larga experiência profissional.
+                    
+                    O alto nível de empregabilidade é uma das principais características da Faculdade Impacta, que é reconhecida pelas maiores empresas do País, em que seus alunos garantem posições de destaque no mercado de trabalho após o término do curso.
+                    
+                    A Instituição ainda conta com infraestrutura moderna, avaliação positiva do MEC, cursos estrelados no Guia do Estudante e parcerias estratégicas com grandes empresas para oferecer a melhor formação para os alunos.</p>
+            </div>
+            <div class="main-wrapper row">
+                <h1>Missão</h1>
+                
+                <p>A Faculdade Impacta Tecnologia tem como missão disseminar o conhecimento no País e contribuir para a construção de uma sociedade mais igualitária através das novas tecnologias aliadas à educação.
+                
+                <h1>Visão</h1> 
+
+                <p>Ser o melhor em educação, conhecimento, capacitação e inovação com liderança, presença e referência mundial.</p>
+
+                <h1>Valores</h1>
+
+                <p>     Encantar o cliente
+
+                        Paixão pela excelência e alta performance
+                        
+                        Busca de níveis superiores de inovação e conhecimento
+                        
+                        Iniciativa e trabalho em equipe com colaboradores comprometidos e criativos
+                        
+                        Crescimento com rentabilidade e resultados que superem expectativas
+                        
+                        Empreendedorismo com ética e integridade</p>
+
+                <span class="wrapper"><img src="LogoFaculdadeImpacta.jpg" alt="Logo Faculdade Impacta"></span>
+                <p>CONHEÇA NOSSOS CURSOS
+                    Considerada uma das melhores faculdades com foco em tecnologia do País, a Faculdade Impacta oferece cursos de Graduação, Pós-Graduação e MBA e cursos técnicos.
+                    A Faculdade Impacta é altamente reconhecida por sua atuação no mercado da educação, o que comprova o compromisso da Instituição com o ensino de qualidade e a dedicação do Grupo Impacta em transformar a sociedade através da tecnologia. Desta maneira, ao longo dos anos a Faculdade Impacta tem recebido prêmios e reconhecimentos que são resultados do trabalho contínuo de professores e funcionários e da determinação de seus alunos.
+                    As salas de aula da Faculdade Impacta são equipadas com lousas eletrônicas, que capturam todos os pontos das aulas presenciais, como voz, escrita dinâmica, vídeos e navegação do professor. Todo o conteúdo é gravado e disponibilizado em uma sala de ensino virtual para que o aluno assista quando e onde quiser, de qualquer plataforma digital.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="list">
+        <div class="list-wrapper">
+            <ul class="ul-list">
+                <li id="1" onclick="ulList1()">Banco de Dados</li>
+                <li id="2" onclick="ulList2()">Analise de Sistemas</li>
+                <li id="3" onclick="ulList3()">Gestão de TI</li>
+                <li id="4" onclick="ulList4()">Redes</li>
+            </ul>
+            <ol class="ol-list">
+                <li id="1" onclick="olList1()">Graduação</li>
+                <li id="2" onclick="olList2()">Pós Graduação</li>
+                <li id="3" onclick="olList3()">MBA</li>
+                <li id="4" onclick="olList4()">Cursos Tecnicos</li>
+            </ol>
+        </div>
+    </div>
+    <hr>
+    <div id="form">
+        <form>
+            <label for="user">Nome: <input type="text" name="user"></label>
+            <label for="color"> Cidade: <input type="text" name="color"></label>
+            <label for="date"> Data de Nascimento: <input type="date"></label>
+            <label for="salary">Qual Curso Voce Deseja: <input type="number"></label>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <hr>
+    <div id="table">
+       <div class="table-wrapper">
+            <table id="tbl">
+                    <tr>
+                        <th>A Impacta</th>
+                        <th>Contato</th>
+                        <th>Atendimento</th>
+                        <th>Siga-nos</th>
+                    </tr>
+                    <tr>
+                        <td id="1" onclick="deleta(1)">Sobre
+                        <td id="1" onclick="deleta(2)">Graduação
+                        <td id="1" onclick="deleta(3)">Pós e MBA
+                        <td id="1" onclick="deleta(4)">Técnicos
+                        <td id="1" onclick="deleta(5)">Materiais Gratuitos</td>        
+                </table>
+       </div>
+    </div>
+</body>
+<footer>
+    Exercício de Revisão
+</footer>
